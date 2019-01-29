@@ -35,7 +35,7 @@ class Song
   end
   
   def self.find_by_name(search)
-    Song.all.find {|song| song.name == search}
+   @@all.find {|song| song.name == search}
     
     # iterate through @@all 
       # a match of a song w/ a name equal to search 
