@@ -24,6 +24,7 @@ class Song
     #instantiate a song with a name 
     song = Song.new
     song.name = name 
+    song 
   end
 
 
