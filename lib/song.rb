@@ -34,6 +34,9 @@ class Song
     song 
   end
   
+  def find_by_name
+  end
+  
 
 
 end
