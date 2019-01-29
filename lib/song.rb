@@ -27,7 +27,6 @@ class Song
     song 
   end
   
-  song1 = Song.new_by_name(name)
 
 
 end
