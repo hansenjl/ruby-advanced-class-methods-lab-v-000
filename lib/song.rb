@@ -42,6 +42,13 @@ class Song
       #return the song we found 
   end
   
+  def self.find_or_create_by_name(search_name)
+    if self.find_by_name(search_name) == nil 
+      self.create_by_name(search_name) 
+    else
+    end
+  end
+  
 
 
 end
